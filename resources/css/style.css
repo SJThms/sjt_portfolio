@@ -6,3 +6,11 @@
     /* outline: 2px solid tomato; */
 }
 
+body {
+    height: 100%;
+    font-family: 'Read Regular', Tahoma, Verdana, sans-serif
+}
+
+.profile-pic {
+    height:5vh;
+}
