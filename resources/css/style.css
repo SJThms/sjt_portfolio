@@ -10,14 +10,36 @@ body {
     height: 100%;
     font-family: Tahoma, Verdana, sans-serif;
     background: hsla(30, 1%, 58%, 0.6);
-    color:hsla(30, 1%, 7%, 1)
+    color:hsla(30, 1%, 7%, 1);
+    
 
 }
 
 header {
     display: flex;
-    flex-direction: row;
+    width: 100%;
+    padding: 3vmin;
+    justify-content: space-between;
+
+
 }
+
+#profile-pic {
+    padding: 2vmin;
+
+    width: 80%;
+    height: auto;
+}
+
+nav {
+    width: 80%;
+}
+
+.title {
+    float: right;
+
+}
+
 
 
 
