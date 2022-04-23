@@ -8,9 +8,16 @@
 
 body {
     height: 100%;
-    font-family: 'Read Regular', Tahoma, Verdana, sans-serif
+    font-family: Tahoma, Verdana, sans-serif;
+    background: hsla(30, 1%, 58%, 0.6);
+    color:hsla(30, 1%, 7%, 1)
+
 }
 
-.profile-pic {
-    height:5vh;
+header {
+    display: flex;
+    flex-direction: row;
 }
+
+
+
