@@ -3,7 +3,7 @@
     padding: 0;
     overflow: visible;
     box-sizing: border-box;
-    /* outline: 2px solid tomato; */
+    outline: 2px solid tomato;
 }
 
 body {
@@ -11,35 +11,38 @@ body {
     font-family: Tahoma, Verdana, sans-serif;
     background: hsla(30, 1%, 58%, 0.6);
     color:hsla(30, 1%, 7%, 1);
-    
-
 }
 
-header {
-    display: flex;
-    width: 100%;
-    padding: 3vmin;
-    justify-content: space-between;
 
-
-}
-
-#profile-pic {
+.logo_nav {
     padding: 2vmin;
+    width: 100%;
+    display: inline-block;
+    
+}
 
-    width: 80%;
+#profile-pic {  
+    float: left;
+    margin: 5vmin;
+    width: 40%;
     height: auto;
 }
 
 nav {
-    width: 80%;
+    float: right;
+    margin: 5vmin;
+    width: 20%;
+    display: block;
 }
 
 .title {
-    float: right;
-
+    margin: 2vmin;
+    padding: 2vmin;
 }
 
+h1 {
+    padding-bottom: 2vmin;
+}
 
 
 
