@@ -38,14 +38,6 @@ nav {
 
 }
 
-/*a {
-    margin: 2vmin;
-}
-
-.title {
-    margin: 2vmin;
-    padding: 2vmin;
-}*/
 
 h1 {
     padding-bottom: 2vmin;
@@ -53,17 +45,27 @@ h1 {
 
 article {
     padding: 2vmin;
-
 }
 
-/*h1, h2, h3, h4 {
+section {
     margin: 3vmin;
 }
 
+p {
+    padding: 2vmin;
+}
 
-p, li {
-    margin: 2vmin;
-}*/
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
 
 
 
