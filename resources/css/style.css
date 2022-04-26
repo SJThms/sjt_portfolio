@@ -32,8 +32,14 @@ body {
 nav {
     float: right;
     margin: 5vmin;
-    width: 20%;
-    display: block;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    margin: 2vmin;
 }
 
 .title {
@@ -43,6 +49,11 @@ nav {
 
 h1 {
     padding-bottom: 2vmin;
+}
+
+article {
+    padding: 2vmin;
+
 }
 
 
