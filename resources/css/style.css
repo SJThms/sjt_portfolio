@@ -56,5 +56,15 @@ article {
 
 }
 
+h3, h4 {
+    margin: 3vmin;
+}
+
+
+p, li {
+    margin: 2vmin;
+}
+
+
 
 
