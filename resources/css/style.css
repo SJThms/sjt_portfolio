@@ -38,6 +38,11 @@ nav {
 
 }
 
+.title {
+    background-color: hsla(58, 100%, 50%, 1);
+    padding: 2vmin;
+}
+
 
 h1 {
     padding-bottom: 2vmin;
