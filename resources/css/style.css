@@ -17,21 +17,19 @@ body {
 
 .logo_nav {
     padding: 2vmin;
-    width: 100%;
     display: inline-block;
-    
+    box-shadow: 0 0 1rem hsla(30, 1%, 58%, 1);
 }
 
 #profile-pic {  
     float: left;
-    margin: 5vmin;
-    width: 40%;
+    margin: 3vmin;
+    width: 35%;
     height: auto;
 }
 
 nav {
     float: right;
-    margin: 5vmin;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -41,6 +39,7 @@ nav {
 .title {
     background-color: hsla(58, 100%, 50%, 1);
     padding: 2vmin;
+    margin-top: 0;
 }
 
 
@@ -50,6 +49,7 @@ h1 {
 
 article {
     padding: 2vmin;
+    box-shadow: 0 0 1rem hsla(30, 1%, 58%, 1);
 }
 
 section {
