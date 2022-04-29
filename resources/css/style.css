@@ -17,13 +17,14 @@ body {
 
 .logo_nav {
     padding: 2vmin;
+    margin: 2vmin;
     display: inline-block;
     box-shadow: 0 0 1rem hsla(30, 1%, 58%, 1);
 }
 
 #profile-pic {  
     float: left;
-    margin: 3vmin;
+    margin: 5vmin;
     width: 35%;
     height: auto;
 }
@@ -39,6 +40,7 @@ nav {
 .title {
     background-color: hsla(58, 100%, 50%, 1);
     padding: 2vmin;
+    margin: 2vmin;
     margin-top: 0;
 }
 
@@ -56,8 +58,8 @@ article {
     box-shadow: 0 0 1rem hsla(30, 1%, 58%, 1);
 }
 
-section {
-    margin: 3vmin;
+section, ul {
+    margin: 5vmin;
 }
 
 p {
