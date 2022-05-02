@@ -3,6 +3,7 @@
     padding: 0;
     overflow: visible;
     box-sizing: border-box;
+    text-align: justify;
     /*outline: 2px solid tomato;*/
 }
 
@@ -64,7 +65,7 @@ section, ul {
 
 p {
     padding: 2vmin;
-    text-align: justify;
+   
 }
 
 a {
