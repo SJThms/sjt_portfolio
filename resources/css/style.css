@@ -65,7 +65,7 @@ article {
     box-shadow: 0 0 1rem hsla(30, 1%, 58%, 1);
 }
 
-section, ul {
+section {
     margin: 5vmin;
 }
 
@@ -77,11 +77,16 @@ a {
     text-decoration: none;
     font-weight: bold;
     color:hsla(30, 1%, 7%, 1);
-    text-shadow: 2px 2px hsla(58, 100%, 50%, 1);
+    text-shadow: 2px 2px hsla(58, 100%, 50%, 1); 
 }
 
 li {
     list-style: none;
+}
+
+.contact_link {
+    display:inline-block;
+    width: 20%;
 }
 
 #email {
