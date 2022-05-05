@@ -1,6 +1,6 @@
 * {
     margin: 2vmin;
-    padding: 0;
+    padding: 1vmin;
     overflow: visible;
     box-sizing: border-box;
     text-align: justify;
@@ -68,6 +68,7 @@ article {
 
 section {
     margin: 5vmin;
+    box-shadow: 0 0 0.5rem hsla(30, 1%, 58%, 1);
 }
 
 p {
