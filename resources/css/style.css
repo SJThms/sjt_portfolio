@@ -84,9 +84,6 @@ a {
 #contact_ul {
     display: flex;
     justify-content: center;
-    padding-bottom: 5vmin;
-
-
 }
 
 li {
@@ -103,7 +100,7 @@ li.contact_link {
 
 #email {
    
-   font-size: 0.8rem;
+   font-size: 0.85rem;
 }
 
 
