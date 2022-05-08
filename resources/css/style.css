@@ -82,7 +82,11 @@ a {
 }
 
 #contact_ul {
+    display: flex;
+    justify-content: center;
     padding-bottom: 5vmin;
+
+
 }
 
 li {
@@ -90,9 +94,11 @@ li {
     font-size: 0.9rem;
 }
 
-.contact_link {
-    display:inline-block;
-    width: 26%;
+li.contact_link {
+    margin: 0;
+    padding: 0.5vmin;
+    font-size: 0.85rem;
+    
 }
 
 #email {
