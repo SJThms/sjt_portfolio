@@ -70,6 +70,10 @@ section, footer {
     box-shadow: 0 0 0.5rem hsla(30, 1%, 58%, 1);
 }
 
+footer {
+    margin-top: 0;
+}
+
 p {
     padding: 2vmin;
 }
