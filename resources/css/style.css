@@ -62,12 +62,12 @@ h3 {
 
 article {
     padding: 2vmin;
-    box-shadow: 0 0 1rem hsla(30, 1%, 58%, 1);
+    box-shadow: 0 0 1rem hsla(30, 1%, 40%, 1);
 }
 
 section, footer {
     margin: 5vmin;
-    box-shadow: 0 0 0.5rem hsla(30, 1%, 58%, 1);
+    box-shadow: 0 0 0.5rem hsla(30, 1%, 40%, 1);
 }
 
 footer {
