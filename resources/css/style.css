@@ -1,3 +1,5 @@
+/*General styles*/
+
 * {
     margin: 2vmin;
     padding: 1vmin;
@@ -15,6 +17,51 @@ body {
     color:hsla(30, 1%, 7%, 1);
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:hsla(30, 1%, 7%, 1);
+    text-shadow: 2px 2px hsla(58, 100%, 50%, 1); 
+}
+
+h1 {
+    padding-bottom: 2vmin;
+    font-size: 2rem;
+    text-shadow: 2px 2px hsla(30, 1%, 58%, 0.5);
+}
+
+h2 {
+    line-height: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+article {
+    padding: 2vmin;
+    box-shadow: 0 0 1rem hsla(30, 1%, 40%, 1);
+}
+
+section {
+    margin: 5vmin;
+    background-color: hsla(30, 1%, 90%, 0.6);
+    box-shadow: 0 0 0.5rem hsla(30, 1%, 40%, 1);
+}
+
+p {
+    padding: 2vmin;
+}
+
+li {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+
+
+/*header-specific styles*/
 
 .logo_nav {
     padding: 2vmin;
@@ -37,13 +84,6 @@ nav {
     flex-direction: column;
 }
 
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color:hsla(30, 1%, 7%, 1);
-    text-shadow: 2px 2px hsla(58, 100%, 50%, 1); 
-}
-
 .nav_link {
     text-align: right;
 }
@@ -56,53 +96,8 @@ a {
 }
 
 
-h1 {
-    padding-bottom: 2vmin;
-    font-size: 2rem;
-    text-shadow: 2px 2px hsla(30, 1%, 58%, 0.5);
-}
 
-h2 {
-    line-height: 2.5rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-article {
-    padding: 2vmin;
-    box-shadow: 0 0 1rem hsla(30, 1%, 40%, 1);
-}
-
-section {
-    margin: 5vmin;
-    background-color: hsla(30, 1%, 90%, 0.6);
-    box-shadow: 0 0 0.5rem hsla(30, 1%, 40%, 1);
-}
-
-p {
-    padding: 2vmin;
-}
-
-
-
-#contact_ul {
-    display: flex;
-    justify-content: center;
-}
-
-li {
-    list-style: none;
-    font-size: 0.9rem;
-}
-
-li.contact_link {
-    margin: 0;
-    padding: 0.5vmin;
-    font-size: 0.85rem;
-    
-}
+/*footer-specific styles*/
 
 footer {
     margin: 5vmin;
@@ -115,10 +110,24 @@ footer, .logo_nav {
     box-shadow: 0 0 0.5rem hsla(30, 1%, 25%, 1);
 }
 
+#contact_ul {
+    display: flex;
+    justify-content: center;
+}
+
+li.contact_link {
+    margin: 0;
+    padding: 0.5vmin;
+    font-size: 0.85rem;
+    
+}
+
 #email {
    text-align: center;
    font-size: 0.85rem;
 }
+
+
 
 
 
