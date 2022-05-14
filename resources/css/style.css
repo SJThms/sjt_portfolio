@@ -108,6 +108,7 @@ footer {
 footer, .logo_nav {
     background-color: hsla(30, 1%, 58%, 0.5);
     box-shadow: 0 0 0.5rem hsla(30, 1%, 25%, 1);
+    
 }
 
 #contact_ul {
@@ -126,6 +127,28 @@ li.contact_link {
    text-align: center;
    font-size: 0.85rem;
 }
+
+
+/*Styles for large screens devices*/
+
+@media (min-width: 600px) {
+    header {
+        display: flex;
+        flex-flow: row-reverse;
+    }
+
+    .title {
+        width: 60%;
+        height: auto;
+    }
+    .logo_nav {
+        width: 40%;
+        height: auto;
+    }
+}
+
+
+
 
 
 
