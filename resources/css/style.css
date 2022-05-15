@@ -135,6 +135,9 @@ li.contact_link {
     header {
         display: flex;
         flex-flow: row-reverse;
+        height: 30vh;
+        position: sticky;
+        top: 0;
     }
 
     .title {
