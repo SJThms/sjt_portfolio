@@ -132,6 +132,13 @@ li.contact_link {
 /*Styles for large screens devices*/
 
 @media (min-width: 600px) {
+
+    * {
+        padding: 0.5vmin;
+        margin: 1vmin;
+    }
+
+    
     header {
         display: flex;
         flex-flow: row-reverse;
@@ -147,6 +154,10 @@ li.contact_link {
     .logo_nav {
         width: 40%;
         height: auto;
+    }
+
+    nav {
+        flex-direction: row;
     }
 }
 
