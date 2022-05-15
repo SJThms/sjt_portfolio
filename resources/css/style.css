@@ -70,7 +70,7 @@ li {
     box-shadow: 0 0 1rem hsla(30, 1%, 58%, 1);
 }
 
-#profile-pic {  
+#profile_pic {  
     float: left;
     margin: 5vmin;
     width: 35%;
@@ -154,10 +154,18 @@ li.contact_link {
     .logo_nav {
         width: 40%;
         height: 90%;
+        padding-top: 0;
+    
     }
 
     nav {
         flex-direction: row;
+    }
+
+    #profile_pic {
+        width: 70%;
+        vertical-align: top;
+
     }
 }
 
