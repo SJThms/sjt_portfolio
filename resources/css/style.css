@@ -157,7 +157,7 @@ li.contact_link {
         height: 90%;
         padding-top: 0;
         display: grid;
-        grid-template-columns: 9vw 9vw 9vw;
+        grid-template-columns: 8vw 8vw 9vw;
         grid-template-rows: auto;
         grid-template-areas: 
         "profile_pic profile_pic nav"
