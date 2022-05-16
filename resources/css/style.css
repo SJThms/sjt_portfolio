@@ -180,6 +180,7 @@ li.contact_link {
     #profile_pic {
         grid-area: profile_pic;
         width: 100%;
+        max-height:24vmin;
         padding: 0;
         margin: auto;
         /*width: 50%;
