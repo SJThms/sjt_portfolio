@@ -6,7 +6,7 @@
     overflow: visible;
     box-sizing: border-box;
     text-align: justify;
-    /*outline: 2px solid tomato;*/
+    outline: 2px solid tomato;
 }
 
 body {
@@ -129,13 +129,14 @@ li.contact_link {
 }
 
 
-/*Styles for large screens devices*/
+/*Styles for large screen devices*/
 
 @media (min-width: 600px) {
 
     * {
         padding: 0.5vmin;
         margin: 1vmin;
+        
     }
 
     
@@ -155,15 +156,18 @@ li.contact_link {
         width: 40%;
         height: 90%;
         padding-top: 0;
+
     
     }
 
     nav {
-        flex-direction: row;
+        flex-direction: column;
+        width: 20%;
+        
     }
 
     #profile_pic {
-        width: 70%;
+        width: 50%;
         vertical-align: top;
 
     }
