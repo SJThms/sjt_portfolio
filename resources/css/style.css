@@ -149,11 +149,11 @@ li.contact_link {
     }
 
     .title {
-        width: 55vw;
+        width: 50vw;
         height: 90%;
     }
     .logo_nav {
-        width: 35vw;
+        width: 34vw;
         height: 90%;
         padding-top: 0;
         display: grid;
@@ -164,22 +164,24 @@ li.contact_link {
         "profile_pic profile_pic nav"
         "profile_pic profile_pic nav"
         ;
-
-
-    
+        justify-content: space-around;
     }
 
     nav {
+        margin: 0;
         grid-area: nav;
         padding: 0;
         width: 100%;
+        line-height: 2rem;
         /*flex-direction: column;
         width: 20%;*/
         
     }
 
     a.nav_link {
-        width: 7vw;
+        padding: 1vw
+        width: 11vw;
+        text-align: end;
     }
 
     #profile_pic {
