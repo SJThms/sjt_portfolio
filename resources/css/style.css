@@ -179,7 +179,7 @@ li.contact_link {
     }
 
     a.nav_link {
-        padding: 1vw
+        padding: 1vw;
         width: 11vw;
         text-align: end;
     }
@@ -188,7 +188,7 @@ li.contact_link {
         grid-area: profile_pic;
         width: 100%;
         max-height:24vmin;
-        padding: 0;
+        max-width: 24vmin;
         margin: auto;
         /*width: 50%;
         vertical-align: top;*/
