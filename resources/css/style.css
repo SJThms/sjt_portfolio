@@ -138,8 +138,7 @@ li.contact_link {
         margin: 1vmin;
         
     }
-
-    
+  
     header {
         display: flex;
         flex-flow: row-reverse;
@@ -194,6 +193,34 @@ li.contact_link {
         vertical-align: top;*/
 
     }
+    
+    #skills {
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "skills_h3 skills_h3"
+        "languages other_skills"
+        "languages other_skills"
+        ;
+    }
+
+    #skills_h3 {
+        grid-area: skills_h3;
+    }
+    
+    #languages {
+        grid-area: languages;
+        width: 35vw;
+    }
+
+    #other_skills {
+        grid-area: other_skills;
+        width: 35vw;
+    }
+
+
+
 }
 
 
