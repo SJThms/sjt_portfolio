@@ -145,18 +145,20 @@ li.contact_link {
         height: 30vh;
         position: sticky;
         top: 0;
+        margin: 0;
     }
 
     .title {
-        width: 50vw;
-        height: 90%;
+        width: 66vw;
+        height: 95%;
     }
     .logo_nav {
+        
         width: 34vw;
-        height: 90%;
+        height: 95%;
         padding-top: 0;
         display: grid;
-        grid-template-columns: 8vw 8vw 9vw;
+        grid-template-columns: 10vw 10vw 14vw;
         grid-template-rows: auto;
         grid-template-areas: 
         "profile_pic profile_pic nav"
@@ -167,9 +169,7 @@ li.contact_link {
     }
 
     nav {
-        margin: 0;
         grid-area: nav;
-        padding: 0;
         width: 100%;
         line-height: 2rem;
         /*flex-direction: column;
@@ -178,7 +178,7 @@ li.contact_link {
     }
 
     a.nav_link {
-        padding: 1vw;
+        padding: 1vmin;
         width: 11vw;
         text-align: end;
     }
