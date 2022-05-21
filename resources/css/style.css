@@ -6,7 +6,7 @@
     overflow: visible;
     box-sizing: border-box;
     text-align: justify;
-    /*outline: 2px solid tomato;*/
+    outline: 2px solid tomato;
 }
 
 body {
@@ -82,6 +82,7 @@ nav {
     width: 30%;
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 .nav_link {
@@ -100,7 +101,6 @@ nav {
 /*footer-specific styles*/
 
 footer {
-    width: 95%;
     margin-top: 0;
     box-shadow: 0 0 0.5rem hsla(30, 1%, 40%, 1);
 }
