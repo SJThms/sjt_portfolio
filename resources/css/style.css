@@ -13,7 +13,7 @@ body {
     height: 100%;
     font-family: Tahoma, Verdana, Geneva, sans-serif;
     font-size: 16px;
-    background-color: hsla(30, 1%, 58%, 0.7);
+    background-color: hsla(30, 1%, 58%, 1);
     color:hsla(30, 1%, 7%, 1);
 }
 
@@ -222,9 +222,7 @@ li.contact_link {
         width: 35vw;
     }
 
-    footer {
-        background-color: hsla(30, 1%, 58%, 1);
-    }
+    
 
 
 
