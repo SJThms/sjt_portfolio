@@ -13,8 +13,8 @@ body {
     height: 100%;
     font-family: Tahoma, Verdana, Geneva, sans-serif;
     font-size: 16px;
-    background-color: hsla(30, 1%, 58%, 1);
-    color:hsla(30, 1%, 7%, 1);
+    background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 1)*/;
+    color:hsla(0, 0%, 25%, 1)/*hsla(30, 1%, 7%, 1)*/;
 }
 
 
@@ -22,13 +22,13 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: /*hsla(28, 100%, 43%, 1)hsla(58, 100%, 50%, 1)*/hsla(60, 100%, 50%, 1);
-    text-shadow: 1px 1px hsla(30, 1%, 1%, 1) ; 
+    text-shadow: 2px 2px hsla(0, 0%, 15%, 1)/*hsla(30, 1%, 1%, 1)*/ ; 
 }
 
 h1 {
     padding-bottom: 2vmin;
     font-size: 2rem;
-    text-shadow: 2px 2px hsla(30, 1%, 58%, 0.5);
+    text-shadow: 2px 2px hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
 }
 
 h2 {
@@ -42,15 +42,15 @@ h3 {
 
 article {
     padding: 2vmin;
-    box-shadow: 0 0 1rem hsla(30, 1%, 40%, 1);
+    box-shadow: 0 0 1rem hsla(0, 0%, 45%, 1)/*hsla(30, 1%, 40%, 1)*/;
     margin-bottom: 2vmin;
 }
 
 section {
     margin: 5vmin;
     padding: 1.5vmin;
-    background-color: hsla(30, 1%, 90%, 0.6);
-    box-shadow: 0 0 0.5rem hsla(30, 1%, 40%, 1);
+    background-color: hsla(0, 0%, 85%, 1)/*hsla(30, 1%, 90%, 0.6)*/;
+    box-shadow: 0 0 0.5rem hsla(0, 0%, 55%, 1)/*hsla(30, 1%, 40%, 1)*/;
 }
 
 p {
@@ -72,8 +72,8 @@ header {
     padding: 2vmin;
     margin: 2vmin;
     display: inline-block;
-    background-color: hsla(30, 1%, 58%, 0.5);
-    box-shadow: 0 0 0.5rem hsla(30, 1%, 25%, 1);
+    background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
+    box-shadow: 0 0 0.5rem hsla(0, 0%, 45%, 1)/*hsla(30, 1%, 25%, 1)*/;
 }
 
 #profile_pic {  
@@ -108,7 +108,7 @@ nav {
 
 footer {
     margin-top: 0;
-    background-color: hsla(30, 1%, 58%, 0.5);
+    background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
 }
 
 
@@ -147,7 +147,7 @@ li.contact_link {
         position: sticky;
         top: 0;
         margin: 0;
-        background-color: hsla(30, 1%, 58%, 1) !important;
+        background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 1) !important*/;
     }
 
     .title {
