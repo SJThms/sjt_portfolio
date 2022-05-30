@@ -125,8 +125,6 @@ footer {
 li.contact_link {
     margin: 0;
     padding: 0.5vmin;
-    font-size: 0.95rem;
-    
 }
 
 #email {
@@ -227,7 +225,11 @@ li.contact_link {
         width: 35vw;
     }
 
-    
+    li.contact_link {
+        font-size: 1.1rem;
+        justify-content: space-around;
+
+    }
 
 
 
