@@ -99,7 +99,7 @@ nav {
 }
 
 .title {
-    /*background-color: hsla(55, 100%, 50%, 1)/*hsla(58, 100%, 50%, 1)hsla(60, 100%, 50%, 1)*/;
+    background-color: /*hsla(55, 100%, 50%, 1)hsla(58, 100%, 50%, 1)hsla(60, 100%, 50%, 1)*/;
     padding: 4vmin;
     margin: 2vmin;
     margin-bottom: 0;
@@ -148,7 +148,7 @@ li.contact_link {
         position: sticky;
         top: 0;
         margin: 0;
-        background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 1) !important*/;
+        background-color: white/* hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 1) !important*/;
     }
 
     .title {
