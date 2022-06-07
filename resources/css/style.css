@@ -76,7 +76,7 @@ header {
     margin: 2vmin;
     display: inline-block;
     background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
-    box-shadow: 0 0 0.5rem hsla(0, 0%, 45%, 1)/*hsla(30, 1%, 25%, 1)*/;
+    box-shadow: none;/*0 0 0.5rem hsla(0, 0%, 45%, 1)/*hsla(30, 1%, 25%, 1)*/;
 }
 
 #profile_pic {  
@@ -112,6 +112,7 @@ nav {
 footer {
     margin-top: 0;
     background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
+    box-shadow: none;
 }
 
 
