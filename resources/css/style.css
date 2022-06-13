@@ -219,6 +219,10 @@ li.contact_link {
     #skills_h3 {
         grid-area: skills_h3;
     }
+    .skills_list {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
     
     #languages {
         grid-area: languages;
@@ -239,6 +243,9 @@ li.contact_link {
 
 
 }
+
+
+
 
 
 
