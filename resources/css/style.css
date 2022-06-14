@@ -146,7 +146,7 @@ li.contact_link {
     header {
         display: flex;
         flex-flow: row-reverse;
-        height: 30vh;
+        height: 37vh;
         position: sticky;
         top: 0;
         margin: 0;
