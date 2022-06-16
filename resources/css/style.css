@@ -170,13 +170,14 @@ li.contact_link {
         "profile_pic profile_pic nav"
         "profile_pic profile_pic nav"
         ;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     nav {
         grid-area: nav;
         width: 100%;
         line-height: 2rem;
+        margin-top: 4vmin;
         /*flex-direction: column;
         width: 20%;*/
         
