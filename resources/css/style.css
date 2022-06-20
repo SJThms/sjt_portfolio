@@ -27,12 +27,13 @@ a {
 
 h1 {
     padding-bottom: 2vmin;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-shadow: 3px 3px white/*hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
 }
 
 h2 {
     line-height: 2.5rem;
+    font-size: 1.6rem;
 }
 
 h3 {
