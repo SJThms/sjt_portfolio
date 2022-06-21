@@ -21,19 +21,19 @@ body {
 a {
     text-decoration: none;
     font-weight: 800;
-    color: hsla(191.8,86.9%, 39%,1)/*hsla(55, 100%, 50%, 1)/*hsla(58, 100%, 50%, 1)hsla(60, 100%, 50%, 1)*/;
+    color: hsla(191.8,86.9%, 39%,1)/*hsla(55, 100%, 50%, 1)hsla(58, 100%, 50%, 1)/*hsla(60, 100%, 50%, 1)*/;
    /* text-shadow: /*2px 2px*//* 1.5px 1.5px 0px hsla(0, 0%, 15%, 0.75), 0px -1.5px 1.5px hsla(0, 0%, 15%, 0.75)/*hsla(30, 1%, 1%, 1)*/ ; 
 }
 
 h1 {
     padding-bottom: 2vmin;
-    font-size: 2.2rem;
-    text-shadow: 3px 3px white/*hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
+    font-size: 2.3rem;
+    text-shadow: 1px 1px hsla(191.8,86.9%, 39%,1)/*hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
 }
 
 h2 {
     line-height: 2.5rem;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 h3 {
@@ -52,7 +52,7 @@ article {
 section {
     margin: 5vmin;
     padding: 1.5vmin;
-    background-color: hsla(55, 100%, 50%, 1)/*hsla(0, 0%, 85%, 1)/*hsla(30, 1%, 90%, 0.6)*/;
+    background-color: hsla(51, 100%, 50%, 1)/*hsla(0, 0%, 85%, 1)hsla(30, 1%, 90%, 0.6)*/;
     box-shadow: 0 0 0.5rem hsla(0, 0%, 55%, 1)/*hsla(30, 1%, 40%, 1)*/;
 }
 
