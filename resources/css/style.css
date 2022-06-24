@@ -13,17 +13,16 @@ body {
     height: 100%;
     font-family: Tahoma, Verdana, Geneva, sans-serif;
     font-size: 16px;
-    background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 1)*/;
-    color:hsla(0, 0%, 25%, 1)/*hsla(30, 1%, 7%, 1)*/;
+    background-color: hsla(0, 0%, 75%, 1);
+    color:hsla(0, 0%, 25%, 1);
 }
 
 
 a {
     text-decoration: none;
     font-weight: 800;
-    color: hsla(191.8,86.9%, 39%,1)/*hsla(55, 100%, 50%, 1)hsla(58, 100%, 50%, 1)/*hsla(60, 100%, 50%, 1)*/;
-   /* text-shadow: /*2px 2px*//* 1.5px 1.5px 0px hsla(0, 0%, 15%, 0.75), 0px -1.5px 1.5px hsla(0, 0%, 15%, 0.75)/*hsla(30, 1%, 1%, 1)*/ ; 
-}
+    color: hsla(191.8,86.9%, 39%,1);
+   }
 
 h1 {
     padding-bottom: 2vmin;
@@ -45,15 +44,15 @@ h3 {
 
 article {
     padding: 2vmin;
-    box-shadow: 0 0 1rem hsla(0, 0%, 45%, 1)/*hsla(30, 1%, 40%, 1)*/;
+    box-shadow: 0 0 1rem hsla(0, 0%, 45%, 1);
     margin-bottom: 2vmin;
 }
 
 section {
     margin: 5vmin;
     padding: 1.5vmin;
-    background-color: hsla(51, 100%, 50%, 1)/*hsla(0, 0%, 85%, 1)hsla(30, 1%, 90%, 0.6)*/;
-    box-shadow: 0 0 0.5rem hsla(0, 0%, 45%, 1)/*hsla(30, 1%, 40%, 1)*/;
+    background-color: hsla(51, 100%, 50%, 1);
+    box-shadow: 0 0 0.5rem hsla(0, 0%, 45%, 1);
 }
 
 p {
@@ -76,8 +75,8 @@ header {
     padding: 2vmin;
     margin: 2vmin;
     display: inline-block;
-    background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
-    box-shadow: 0 0 0.5rem hsla(0, 0%, 45%, 1)/*hsla(30, 1%, 25%, 1)*/;
+    background-color: hsla(0, 0%, 75%, 1);
+    box-shadow: 0 0 0.5rem hsla(0, 0%, 45%, 1);
 }
 
 #profile_pic {  
@@ -100,7 +99,6 @@ nav {
 }
 
 .title {
-    /*background-color: /*hsla(55, 100%, 50%, 1)hsla(58, 100%, 50%, 1)hsla(60, 100%, 50%, 1);*/
     padding: 4vmin;
     margin: 2vmin;
     margin-bottom: 0;
@@ -113,7 +111,6 @@ nav {
 footer {
     
     margin-top: 0;
-    /*background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
     box-shadow: none;
 }
 
@@ -151,7 +148,7 @@ li.contact_link {
         position: sticky;
         top: 0;
         margin: 0;
-        background-color: hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 1) !important*/;
+        background-color: hsla(0, 0%, 75%, 1);
     }
 
     .title {
@@ -178,10 +175,7 @@ li.contact_link {
         grid-area: nav;
         width: 100%;
         line-height: 2rem;
-        margin-top: 4vmin;
-        /*flex-direction: column;
-        width: 20%;*/
-        
+        margin-top: 4vmin;    
     }
 
     a.nav_link {
@@ -197,9 +191,6 @@ li.contact_link {
         max-width: 24vmin;
         margin: auto;
         margin-left: 2vmin;
-        /*width: 50%;
-        vertical-align: top;*/
-
     }
 
     h4 {
