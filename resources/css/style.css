@@ -26,7 +26,7 @@ a {
 
 h1 {
     padding-bottom: 2vmin;
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     text-shadow: 1px 1px hsla(191.8,86.9%, 39%,1)/*hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
 }
 
@@ -191,6 +191,14 @@ li.contact_link {
         max-width: 24vmin;
         margin: auto;
         margin-left: 2vmin;
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
     }
 
     h4 {
