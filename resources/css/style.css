@@ -27,7 +27,7 @@ a {
 h1 {
     padding-bottom: 2vmin;
     font-size: 2.2rem;
-    text-shadow: 1px 1px hsla(191.8,86.9%, 39%,1)/*hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
+    /*text-shadow: 1px 1px hsla(191.8,86.9%, 39%,1)/*hsla(0, 0%, 75%, 1)/*hsla(30, 1%, 58%, 0.5)*/;
 }
 
 h2 {
