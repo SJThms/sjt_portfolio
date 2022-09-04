@@ -37,6 +37,9 @@ h2 {
 
 h3 {
     font-size: 1.35rem;
+    color: hsla(51, 100%, 50%, 1);
+    letter-spacing: 0.2rem;
+    text-shadow: 1.2px 1.2px hsla(191.8,86.9%, 39%,1) ;
 }
 
 
